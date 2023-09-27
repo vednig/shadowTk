@@ -9,9 +9,9 @@ git clone https://github.com/vednig/shadowTk.git
 Next,
 
 ```Python
-import shadow
+import shadowTk
 ```
 And to add shadow to your widget
 ```Python
-shadow.Shadow(widget,color='#ccffcc', size=1.3, offset_x=-5, onhover={'color':'#88cc88'})
+shadowTk.Shadow(widget,color='#ccffcc', size=1.3, offset_x=-5, onhover={'color':'#88cc88'})
 ```
